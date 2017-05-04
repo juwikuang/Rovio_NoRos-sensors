@@ -1,0 +1,2 @@
+/usr/bin/ar cr librovio.a  CMakeFiles/rovio.dir/src/Camera.cpp.o CMakeFiles/rovio.dir/src/Struct_definition.cpp.o CMakeFiles/rovio.dir/src/FeatureCoordinates.cpp.o CMakeFiles/rovio.dir/src/FeatureDistance.cpp.o CMakeFiles/rovio.dir/src/Scene.cpp.o
+/usr/bin/ranlib librovio.a
