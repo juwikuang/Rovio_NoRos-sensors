@@ -33,10 +33,6 @@ Paper:  http://dx.doi.org/10.3929/ethz-a-010566547
 Please also have a look at the wiki: https://github.com/ethz-asl/rovio/wiki
 
 ### Install without opengl scene ###
-Dependencies:
-* ros
-* kindr (https://github.com/ethz-asl/kindr)
-* lightweight_filtering (as submodule, use "git submodule update --init --recursive")
 
 ```
 #!command
@@ -46,8 +42,13 @@ catkin build rovio --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ### Install with opengl scene ###
 Additional dependencies: opengl, glut, glew (sudo apt-get install freeglut3-dev, sudo apt-get install libglew-dev)
+
 ```
 #!command
+
+sudo apt-get install freeglut3-dev
+
+sudo apt-get install libglew-dev
 
 catkin build rovio --cmake-args -DCMAKE_BUILD_TYPE=Release -DMAKE_SCENE=ON
 ```
